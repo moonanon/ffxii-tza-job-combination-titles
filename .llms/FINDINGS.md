@@ -20,3 +20,10 @@
 - Lua loader API used: memory.readArray/writeArray (writeArray works on code pages), memory.alloc/allocExe,
   event.registerEventAsync('onInitDone'). Scripts are Lua 5.4 (`&`, `math.type`).
 - The game lives in Flatpak Steam: ~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/FINAL FANTASY XII THE ZODIAC AGE. Its FFXII_TZA.exe sha256 matches upstream (73461d08…), and the bytes at 0x556419 are the expected CALL. The loaders are symlinked from ~/Games/Amethyst (Flatpak has access). The file loader reads loose files from mods\deploy\ff12data.
+
+## Running under Proton
+- File Loader's simpleLog.dll is linked with MSVC 14.44 and crashes (null mutex in MSVCP140) on runtime < 14.40.
+  The FFXII prefix had 14.29.30157; fixed by copying 14.51 msvcp140/vcruntime140/vcruntime140_1 into the game's x64/
+  (app-local beats system32). Symptom: game exits ~10 s after Play; PROTON_LOG shows ff12-trampoline.dll failed to initialize.
+- Loader log is x64/hook.log (Lua print() lands there). Verified 2026-11-24: "Hybrid Job Titles: installed", and
+  menu_command.bin read from DIR0 (loose mod file). `readMemory<U32> failed at 0xc0/0xc8` spam is from another script.

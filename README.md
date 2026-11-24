@@ -20,6 +20,14 @@ Requires the Steam version of the game (1.0.4.0, the current build) with:
 
 Uninstall by deleting `x64/scripts/HybridJobTitles.lua`. Saves are never touched.
 
+### Troubleshooting
+
+**Linux/Proton: the game closes a few seconds after pressing Play.** The FF12 External File Loader's `simpleLog.dll`
+needs the Visual C++ 2015–2022 runtime **14.40 or newer**; many Proton prefixes still have 14.29, which crashes
+(`ff12-trampoline.dll failed to initialize` in a `PROTON_LOG=1` log). Install a current runtime into the prefix
+(`protontricks 595520 vcrun2022`), or copy a 14.40+ `msvcp140.dll`, `vcruntime140.dll` and `vcruntime140_1.dll`
+next to `FFXII_TZA.exe`. Proton also needs the launch option `WINEDLLOVERRIDES="dinput8=n,b" %command%`.
+
 ### Optional: Uhlan → Lancer
 
 The rename patches one of the game's own text files, so it is built from your copy instead of shipped:
