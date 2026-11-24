@@ -1,0 +1,523 @@
+{
+ "schemaVersion": 1,
+ "renames": {
+  "Uhlan": "Lancer"
+ },
+ "hybrids": [
+  {
+   "jobs": [
+    "Archer",
+    "Black Mage"
+   ],
+   "title": "Spellarrow"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Bushi"
+   ],
+   "title": "Kyudoka"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Foebreaker"
+   ],
+   "title": "Arbalist"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Knight"
+   ],
+   "title": "Warden"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Machinist"
+   ],
+   "title": "Sniper"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Monk"
+   ],
+   "title": "Hawkfist"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Red Battlemage"
+   ],
+   "title": "Arcane Ranger"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Shikari"
+   ],
+   "title": "Ranger"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Time Battlemage"
+   ],
+   "title": "Chronoshot"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "Uhlan"
+   ],
+   "title": "Hunter"
+  },
+  {
+   "jobs": [
+    "Archer",
+    "White Mage"
+   ],
+   "title": "Druid"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Bushi"
+   ],
+   "title": "Dark Samurai"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Foebreaker"
+   ],
+   "title": "Spellbreaker"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Knight"
+   ],
+   "title": "Dark Knight"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Machinist"
+   ],
+   "title": "Magitek Adept"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Monk"
+   ],
+   "title": "Blackfist"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Red Battlemage"
+   ],
+   "title": "Magus"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Shikari"
+   ],
+   "title": "Saboteur"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Time Battlemage"
+   ],
+   "title": "Warlock"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "Uhlan"
+   ],
+   "title": "Dark Lancer"
+  },
+  {
+   "jobs": [
+    "Black Mage",
+    "White Mage"
+   ],
+   "title": "Sage"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Foebreaker"
+   ],
+   "title": "Ronin"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Knight"
+   ],
+   "title": "Hatamoto"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Machinist"
+   ],
+   "title": "Ashigaru"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Monk"
+   ],
+   "title": "Sohei"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Red Battlemage"
+   ],
+   "title": "Swordmage"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Shikari"
+   ],
+   "title": "Shinobi"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Time Battlemage"
+   ],
+   "title": "Chronodraw"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "Uhlan"
+   ],
+   "title": "Ryukishi"
+  },
+  {
+   "jobs": [
+    "Bushi",
+    "White Mage"
+   ],
+   "title": "Holy Samurai"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Knight"
+   ],
+   "title": "Barbarian"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Machinist"
+   ],
+   "title": "Artillerist"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Monk"
+   ],
+   "title": "Brawler"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Red Battlemage"
+   ],
+   "title": "Warmage"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Shikari"
+   ],
+   "title": "Reaver"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Time Battlemage"
+   ],
+   "title": "Chronobreaker"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "Uhlan"
+   ],
+   "title": "Ravager"
+  },
+  {
+   "jobs": [
+    "Foebreaker",
+    "White Mage"
+   ],
+   "title": "Crusader"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "Machinist"
+   ],
+   "title": "Musketeer"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "Monk"
+   ],
+   "title": "Templar"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "Red Battlemage"
+   ],
+   "title": "Mystic Knight"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "Shikari"
+   ],
+   "title": "Duelist"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "Time Battlemage"
+   ],
+   "title": "Rune Knight"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "Uhlan"
+   ],
+   "title": "Cavalier"
+  },
+  {
+   "jobs": [
+    "Knight",
+    "White Mage"
+   ],
+   "title": "Paladin"
+  },
+  {
+   "jobs": [
+    "Machinist",
+    "Monk"
+   ],
+   "title": "Gunfist"
+  },
+  {
+   "jobs": [
+    "Machinist",
+    "Red Battlemage"
+   ],
+   "title": "Gunmage"
+  },
+  {
+   "jobs": [
+    "Machinist",
+    "Shikari"
+   ],
+   "title": "Gunblade"
+  },
+  {
+   "jobs": [
+    "Machinist",
+    "Time Battlemage"
+   ],
+   "title": "Chrono Gunner"
+  },
+  {
+   "jobs": [
+    "Machinist",
+    "Uhlan"
+   ],
+   "title": "Gunner"
+  },
+  {
+   "jobs": [
+    "Machinist",
+    "White Mage"
+   ],
+   "title": "Medic"
+  },
+  {
+   "jobs": [
+    "Monk",
+    "Red Battlemage"
+   ],
+   "title": "Arcanefist"
+  },
+  {
+   "jobs": [
+    "Monk",
+    "Shikari"
+   ],
+   "title": "Shadowfist"
+  },
+  {
+   "jobs": [
+    "Monk",
+    "Time Battlemage"
+   ],
+   "title": "Chronofist"
+  },
+  {
+   "jobs": [
+    "Monk",
+    "Uhlan"
+   ],
+   "title": "Dragonfist"
+  },
+  {
+   "jobs": [
+    "Monk",
+    "White Mage"
+   ],
+   "title": "Dervish"
+  },
+  {
+   "jobs": [
+    "Red Battlemage",
+    "Shikari"
+   ],
+   "title": "Arcaneblade"
+  },
+  {
+   "jobs": [
+    "Red Battlemage",
+    "Time Battlemage"
+   ],
+   "title": "Oracle"
+  },
+  {
+   "jobs": [
+    "Red Battlemage",
+    "Uhlan"
+   ],
+   "title": "Rune Lancer"
+  },
+  {
+   "jobs": [
+    "Red Battlemage",
+    "White Mage"
+   ],
+   "title": "Devout"
+  },
+  {
+   "jobs": [
+    "Shikari",
+    "Time Battlemage"
+   ],
+   "title": "Chronoblade"
+  },
+  {
+   "jobs": [
+    "Shikari",
+    "Uhlan"
+   ],
+   "title": "Dragonblade"
+  },
+  {
+   "jobs": [
+    "Shikari",
+    "White Mage"
+   ],
+   "title": "Whiteblade"
+  },
+  {
+   "jobs": [
+    "Time Battlemage",
+    "Uhlan"
+   ],
+   "title": "Chrono Lancer"
+  },
+  {
+   "jobs": [
+    "Time Battlemage",
+    "White Mage"
+   ],
+   "title": "Astrologian"
+  },
+  {
+   "jobs": [
+    "Uhlan",
+    "White Mage"
+   ],
+   "title": "Holy Lancer"
+  }
+ ],
+ "_note": "'jobs' are vanilla job names (Uhlan); 'renames' maps vanilla names to the displayed label.",
+ "affixes": {
+  "Shikari": {
+   "suffix": "blade",
+   "stem": "Shadow"
+  },
+  "Monk": {
+   "suffix": "fist"
+  },
+  "Machinist": {
+   "stem": "Gun",
+   "suffix": "gunner"
+  },
+  "Archer": {
+   "stem": "Hawk",
+   "suffix": "arrow / shot"
+  },
+  "Black Mage": {
+   "stem": "Spell / Black / Dark"
+  },
+  "Red Battlemage": {
+   "stem": "Arcane"
+  },
+  "White Mage": {
+   "stem": "White / Holy"
+  },
+  "Time Battlemage": {
+   "stem": "Chrono"
+  },
+  "Foebreaker": {
+   "suffix": "breaker"
+  },
+  "Bushi": {
+   "style": "Japanese title when paired with a physical job; plain titles with mage jobs"
+  },
+  "Knight": {
+   "suffix": "Knight"
+  },
+  "Uhlan": {
+   "stem": "Dragon",
+   "suffix": "Lancer"
+  }
+ },
+ "canon": {
+  "Vaan": [
+   "Shikari",
+   "Black Mage"
+  ],
+  "Penelo": [
+   "White Mage",
+   "Monk"
+  ]
+ }
+}
